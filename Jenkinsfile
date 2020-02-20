@@ -2,7 +2,7 @@
 
 @Library('jenkinslib') _
 
-def tools = new org.devops.tools()vars
+def tools = new org.devops.tools()
 //看是否执行vars目录里面类的方法
 hello()
 
