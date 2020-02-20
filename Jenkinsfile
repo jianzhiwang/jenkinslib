@@ -39,6 +39,7 @@ pipeline{
 					//填写运行的代码
 					script{
 						println('获取代码')
+						tools.PrintMes('获取代码','green')
 					}
 				}
 			}
@@ -68,7 +69,7 @@ pipeline{
 						mv = tool "maven"
 						sh "${mv}/bin/mvn --version"
 						// 调用lib
-						tools.PrintMes('my name is jzw!')
+						tools.PrintMes('代码扫描!','red')
 					}
 				}
 			}
